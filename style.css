@@ -1,0 +1,51 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/*pseudo-class selector showing the normal state of a text link*/
+a:link{
+  color:blue /*assigns the link text as blue */
+}
+
+/*pseudo-class selector showing a link that has already been clicked on */
+a:visited{
+  color:darkgrey
+}
+
+main{
+  background-color:#f5f0f3 /*sets background to main container*/
+}
+
+footer{
+  background-color:#E6E6FA
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  height:auto
+}
+/*padding is for space around the text */
+
+p{
+  margin: 50px 110px;
+  font-family:Arial, Helvetica, sans-serif; /*sets font for the paragraphs*/
+}
+
+li{
+  margin: 50px; /*margin for listed items*/
+}
+
+h1{
+  text-align: center; /*center text alignment for h1*/
+}
+
+h2{
+  font-size: 28px;
+  color:#663399 /*text color for h2*/
+}
+
+footer{
+  font-size:20px
+  color:#663399
+}
