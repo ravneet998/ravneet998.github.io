@@ -1,24 +1,25 @@
 html, body {
   height: 100%;
   width: 100%;
+  text-align: center;
 }
 
 /*pseudo-class selector showing the normal state of a text link*/
 a:link{
-  color:blue /*assigns the link text as blue */
+  color:blue; /*assigns the link text as blue */
 }
 
 /*pseudo-class selector showing a link that has already been clicked on */
 a:visited{
-  color:darkgrey
+  color:darkgrey;
 }
 
 main{
-  background-color:#f5f0f3 /*sets background to main container*/
+  background-color:#f5f0f3; /*sets background to main container*/
 }
 
 footer{
-  background-color:#E6E6FA
+  background-color:#E6E6FA;
   padding-top: 50px;
   padding-right: 30px;
   padding-bottom: 50px;
@@ -32,8 +33,13 @@ p{
   font-family:Arial, Helvetica, sans-serif; /*sets font for the paragraphs*/
 }
 
+ol li{
+  list-style-type: none;
+}
+
 li{
   margin: 50px; /*margin for listed items*/
+  list-style-type: none;
 }
 
 h1{
@@ -46,7 +52,7 @@ h2{
 }
 
 footer{
-  font-size:20px
+  font-size:20px;
   color:#663399
 }
 
@@ -56,3 +62,4 @@ footer{
   margin-right: auto;
   width: auto;
 }
+
